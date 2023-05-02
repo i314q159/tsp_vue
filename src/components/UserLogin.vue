@@ -32,6 +32,8 @@ export default {
         })
         console.log(response.data)
         // handle successful login here
+        alert("登录成功");
+        
       } catch (error) {
         console.error(error)
         // handle login error here

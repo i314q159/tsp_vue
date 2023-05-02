@@ -37,6 +37,8 @@ export default {
                 })
                 console.log(response.data)
                 // handle successful registration here
+                alert("注册成功，快去登陆吧");
+
             } catch (error) {
                 console.error(error)
                 // handle registration error here
