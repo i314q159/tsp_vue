@@ -11,6 +11,10 @@
             <button type="submit">生成</button>
         </form>
     </div>
+
+    <img src="http://localhost:31415/img/gas.png" alt="gas.png">
+    <img src="http://localhost:31415/img/greedy.png" alt="greedy.png">
+    <img src="http://localhost:31415/img/dijkstra.png" alt="dijkstra.png">
 </template>
 
 <script>
