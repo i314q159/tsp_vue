@@ -6,7 +6,7 @@
       <label>算法类型(gas/greedy/dijkstra)</label>
       <input type="text" v-model="algorithm" required />
       <br />
-      <label>坐标(格式为"x1,y1 x2,y2 ...")</label>
+      <label>监测点(格式为"x1,y1 x2,y2 ...")</label>
       <input type="text" v-model="coordinates" required />
       <br />
       <button type="submit">生成</button>

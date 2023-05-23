@@ -8,7 +8,7 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
         <template #icon>
             <EcosystemIcon/>
         </template>
-        <template #heading>TSP问题可视化</template>
+        <template #heading>无人船环境监测路径可视化</template>
     </WelcomeItem>
 
 </template>
