@@ -38,6 +38,7 @@ export default {
                 console.log(response.data)
                 // handle successful registration here
                 alert("注册成功，快去登陆吧");
+                this.$router.push('/login')
 
             } catch (error) {
                 console.error(error)

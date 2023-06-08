@@ -23,22 +23,23 @@ export default {
       password: ''
     }
   },
-  methods: {
-    async login() {
-      try {
-        const response = await axios.post('http://127.0.0.1:31415/api/v1/user/login', {
-          email: this.email,
-          password: this.password
-        })
-        console.log(response.data)
-        // handle successful login here
-        alert("登录成功");
-        
-      } catch (error) {
-        console.error(error)
-        // handle login error here
+    methods: {
+      async login() {
+        try {
+          const response = await axios.post('http://127.0.0.1:31415/api/v1/user/login', {
+            email: this.email,
+            password: this.password
+          })
+          console.log(response.data)
+          // handle successful login here
+          alert("登录成功，快去使用吧");
+          this.$router.push('/tsp')
+
+        } catch (error) {
+          console.error(error)
+          // handle login error here
+        }
       }
     }
-  }
 }
 </script>
